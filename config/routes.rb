@@ -17,6 +17,7 @@ resources :carts do
     delete :clean
     post :checkout
   end
+  resources :orders
 end
 
   resources :cart_items
